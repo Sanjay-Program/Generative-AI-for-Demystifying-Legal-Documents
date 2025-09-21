@@ -1,0 +1,879 @@
+[
+    {
+        "title": "The Indian Penal Code, 1860 — Section 302 (Punishment for murder)",
+        "jurisdiction": "India",
+        "tags": "criminal,murder,punishment",
+        "text": "Section 302: Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine."
+    },
+{
+        "title": "The Indian Evidence Act, 1872 — Section 24 (Confession caused by inducement)",
+        "jurisdiction": "India",
+        "tags": "evidence,confession,criminal",
+        "text": "Section 24: A confession made under inducement, threat, or promise from a person in authority is irrelevant in criminal proceedings."
+    },
+{
+        "title": "The Companies Act, 2013 — Section 135 (Corporate Social Responsibility)",
+        "jurisdiction": "India",
+        "tags": "corporate,CSR,companies",
+        "text": "Section 135: Companies meeting prescribed thresholds must constitute a CSR committee and spend at least 2% of their average net profits on CSR activities."
+    },
+    {
+        "title": "The Income Tax Act, 1961 — Section 80C (Deductions)",
+        "jurisdiction": "India",
+        "tags": "tax,income,deduction",
+        "text": "Section 80C: Provides deductions for investments such as life insurance, provident fund, tuition fees, and other specified instruments, up to a prescribed limit."
+    },
+    {
+        "title": "The Consumer Protection Act, 2019 — Section 2(7) (Definition of consumer)",
+        "jurisdiction": "India",
+        "tags": "consumer,rights,protection",
+        "text": "Section 2(7): A consumer is any person who buys goods or avails services for consideration but does not include a person obtaining such goods for resale or commercial purposes."
+    },
+    {
+        "title": "The Indian Partnership Act, 1932 — Section 4 (Definition of partnership)",
+        "jurisdiction": "India",
+        "tags": "business,partnership",
+        "text": "Section 4: Partnership is the relation between persons who have agreed to share the profits of a business carried on by all or any of them acting for all."
+    },
+    {
+        "title": "The Hindu Marriage Act, 1955 — Section 13 (Divorce grounds)",
+        "jurisdiction": "India",
+        "tags": "marriage,divorce,hindu",
+        "text": "Section 13: Marriage may be dissolved on grounds such as adultery, cruelty, desertion, conversion, mental disorder, or venereal disease."
+    },
+    {
+        "title": "The Code of Criminal Procedure, 1973 — Section 154 (FIR)",
+        "jurisdiction": "India",
+        "tags": "criminal,FIR,procedure",
+        "text": "Section 154: Every information relating to the commission of a cognizable offence must be recorded in writing and signed by the informant."
+    },
+    {
+        "title": "The Right to Information Act, 2005 — Section 6 (Application for information)",
+        "jurisdiction": "India",
+        "tags": "information,rights,transparency",
+        "text": "Section 6: Any citizen may request information from a public authority by submitting a written or electronic application."
+    },
+    {
+        "title": "The Environment Protection Act, 1986 — Section 3 (Power of Central Government)",
+        "jurisdiction": "India",
+        "tags": "environment,government,powers",
+        "text": "Section 3: The Central Government shall have the power to take measures to protect and improve the quality of the environment."
+    },
+    {
+        "title": "The Negotiable Instruments Act, 1881 — Section 138 (Dishonour of cheque)",
+        "jurisdiction": "India",
+        "tags": "banking,cheque,offence",
+        "text": "Section 138: Dishonour of cheque due to insufficiency of funds is punishable with imprisonment or fine, or both."
+    },
+    {
+        "title": "The Prevention of Corruption Act, 1988 — Section 7 (Public servant taking gratification)",
+        "jurisdiction": "India",
+        "tags": "corruption,public,servants",
+        "text": "Section 7: Any public servant who accepts gratification other than legal remuneration commits an offence."
+    },
+    {
+        "title": "The Foreign Exchange Management Act, 1999 — Section 3 (Dealings in foreign exchange)",
+        "jurisdiction": "India",
+        "tags": "finance,foreign,exchange",
+        "text": "Section 3: Restricts dealings in foreign exchange and securities without permission from the Reserve Bank of India."
+    },
+    {
+        "title": "The Indian Succession Act, 1925 — Section 30 (Wills)",
+        "jurisdiction": "India",
+        "tags": "succession,wills,inheritance",
+        "text": "Section 30: A will is a legal declaration of the intention of a testator with respect to his property after death."
+    },
+    {
+        "title": "The Factories Act, 1948 — Section 51 (Weekly hours)",
+        "jurisdiction": "India",
+        "tags": "labour,factories,work",
+        "text": "Section 51: No adult worker shall be required or allowed to work more than 48 hours in a week."
+    },
+    {
+        "title": "The Maternity Benefit Act, 1961 — Section 5 (Right to maternity benefit)",
+        "jurisdiction": "India",
+        "tags": "labour,maternity,benefits",
+        "text": "Section 5: Every woman shall be entitled to maternity benefit of prescribed duration at the rate of her average daily wage."
+    },
+    {
+        "title": "The Payment of Wages Act, 1936 — Section 5 (Time of payment)",
+        "jurisdiction": "India",
+        "tags": "labour,wages,payment",
+        "text": "Section 5: Wages must be paid within the prescribed time after the end of the wage period, without unauthorized deductions."
+    },
+    {
+        "title": "The Juvenile Justice Act, 2015 — Section 2(35) (Child in conflict with law)",
+        "jurisdiction": "India",
+        "tags": "juvenile,justice,children",
+        "text": "Section 2(35): A child in conflict with law means a person who has not completed eighteen years of age and is alleged or found to have committed an offence."
+    },
+    {
+        "title": "The Sexual Harassment of Women at Workplace Act, 2013 — Section 4 (Internal Committee)",
+        "jurisdiction": "India",
+        "tags": "workplace,harassment,women",
+        "text": "Section 4: Every employer shall constitute an Internal Complaints Committee at each office or branch to hear sexual harassment complaints."
+    },
+    {
+        "title": "The Arbitration and Conciliation Act, 1996 — Section 7 (Arbitration agreement)",
+        "jurisdiction": "India",
+        "tags": "arbitration,dispute,resolution",
+        "text": "Section 7: An arbitration agreement must be in writing and may be contained in a document signed by the parties or exchange of letters, telex, telegrams, or other means of communication."
+    },
+    {
+        "title": "The Right to Education Act, 2009 — Section 3 (Right of child to free and compulsory education)",
+        "jurisdiction": "India",
+        "tags": "education,children,rights",
+        "text": "Section 3: Every child of the age of six to fourteen years shall have the right to free and compulsory education in a neighbourhood school till completion of elementary education."
+    },
+    {
+        "title": "The Motor Vehicles Act, 1988 — Section 185 (Driving under influence of alcohol or drugs)",
+        "jurisdiction": "India",
+        "tags": "traffic,driving,alcohol",
+        "text": "Section 185: Whoever drives a vehicle under the influence of alcohol exceeding permissible limits shall be punishable with imprisonment or fine."
+    },
+    {
+        "title": "The Information Technology Act, 2000 — Section 66C (Identity theft)",
+        "jurisdiction": "India",
+        "tags": "cybercrime,identity,theft",
+        "text": "Section 66C: Identity theft by fraudulent use of electronic signatures, passwords, or unique identification features is punishable with imprisonment and fine."
+    },
+    {
+        "title": "The Copyright Act, 1957 — Section 14 (Meaning of copyright)",
+        "jurisdiction": "India",
+        "tags": "intellectual property,copyright",
+        "text": "Section 14: Copyright means the exclusive right to reproduce, issue copies, perform, or communicate a work to the public."
+    },
+    {
+        "title": "The Patents Act, 1970 — Section 2(1)(j) (Invention definition)",
+        "jurisdiction": "India",
+        "tags": "patents,invention,IPR",
+        "text": "Section 2(1)(j): Invention means a new product or process involving an inventive step and capable of industrial application."
+    },
+    {
+        "title": "The Trade Marks Act, 1999 — Section 2(zb) (Trademark definition)",
+        "jurisdiction": "India",
+        "tags": "trademark,branding,intellectual property",
+        "text": "Section 2(zb): Trademark means a mark capable of distinguishing the goods or services of one person from those of others."
+    },
+    {
+        "title": "The Designs Act, 2000 — Section 2(d) (Design definition)",
+        "jurisdiction": "India",
+        "tags": "designs,IPR,intellectual property",
+        "text": "Section 2(d): Design refers to features of shape, configuration, pattern, ornament or composition of lines or colors applied to any article by an industrial process."
+    },
+    {
+        "title": "The Biological Diversity Act, 2002 — Section 7 (Restrictions on access to biological resources)",
+        "jurisdiction": "India",
+        "tags": "biodiversity,environment,resources",
+        "text": "Section 7: No person shall obtain biological resources for commercial utilization without prior intimation to the State Biodiversity Board."
+    },
+    {
+        "title": "The Forest Rights Act, 2006 — Section 3 (Recognition of forest rights)",
+        "jurisdiction": "India",
+        "tags": "tribal,forest,rights",
+        "text": "Section 3: Recognizes the rights of forest-dwelling Scheduled Tribes and other traditional forest dwellers to forest land and resources."
+    },
+    {
+        "title": "The Mines Act, 1952 — Section 28 (Hours of work for adults)",
+        "jurisdiction": "India",
+        "tags": "labour,mines,work",
+        "text": "Section 28: No adult working in a mine shall be required to work more than 48 hours in a week or 9 hours in a day."
+    },
+    {
+        "title": "The Apprentices Act, 1961 — Section 8 (Obligation of employers)",
+        "jurisdiction": "India",
+        "tags": "apprenticeship,training,employment",
+        "text": "Section 8: Every employer shall provide training to apprentices in accordance with the prescribed program."
+    },
+    {
+        "title": "The National Food Security Act, 2013 — Section 3 (Right to receive foodgrains)",
+        "jurisdiction": "India",
+        "tags": "food,security,rights",
+        "text": "Section 3: Eligible persons are entitled to receive 5 kilograms of foodgrains per person per month at subsidized prices."
+    },
+    {
+        "title": "The Disaster Management Act, 2005 — Section 6 (National Authority)",
+        "jurisdiction": "India",
+        "tags": "disaster,management,authority",
+        "text": "Section 6: The National Disaster Management Authority shall be responsible for laying down policies, plans, and guidelines for disaster management."
+    },
+    {
+        "title": "The Protection of Human Rights Act, 1993 — Section 2(d) (Definition of human rights)",
+        "jurisdiction": "India",
+        "tags": "human rights,law,protection",
+        "text": "Section 2(d): Human rights means the rights relating to life, liberty, equality, and dignity guaranteed by the Constitution or embodied in international covenants."
+    },
+    {
+        "title": "The Prevention of Money Laundering Act, 2002 — Section 3 (Offence of money laundering)",
+        "jurisdiction": "India",
+        "tags": "money laundering,finance,crime",
+        "text": "Section 3: Whosoever directly or indirectly attempts to indulge or knowingly assists in money laundering shall be guilty of the offence."
+    },
+    {
+        "title": "The Unlawful Activities (Prevention) Act, 1967 — Section 15 (Definition of terrorist act)",
+        "jurisdiction": "India",
+        "tags": "terrorism,security,law",
+        "text": "Section 15: A terrorist act involves using explosives, firearms, or hazardous substances with intent to threaten unity, integrity, security, or sovereignty of India."
+    },
+    {
+        "title": "The Aadhaar Act, 2016 — Section 3 (Enrolment and entitlement)",
+        "jurisdiction": "India",
+        "tags": "aadhaar,identity,law",
+        "text": "Section 3: Every resident shall be entitled to obtain an Aadhaar number by submitting demographic and biometric information."
+    },
+    {
+        "title": "The National Green Tribunal Act, 2010 — Section 14 (Tribunal jurisdiction)",
+        "jurisdiction": "India",
+        "tags": "environment,tribunal,justice",
+        "text": "Section 14: The Tribunal shall have jurisdiction over all civil cases where a substantial question relating to the environment is involved."
+    },
+    {
+        "title": "The Prevention of Cruelty to Animals Act, 1960 — Section 11 (Cruelty to animals)",
+        "jurisdiction": "India",
+        "tags": "animals,cruelty,protection",
+        "text": "Section 11: Treating animals cruelly by beating, overloading, or causing unnecessary suffering shall amount to an offence."
+    },
+    {
+        "title": "The Cinematograph Act, 1952 — Section 5B (Certification of films)",
+        "jurisdiction": "India",
+        "tags": "cinema,films,certification",
+        "text": "Section 5B: A film shall not be certified for public exhibition if it is against the sovereignty and integrity of India, security of the State, or public order."
+    },
+    {
+        "title": "The Water (Prevention and Control of Pollution) Act, 1974 — Section 24 (Prohibition on use of streams or wells)",
+        "jurisdiction": "India",
+        "tags": "water,pollution,environment",
+        "text": "Section 24: No person shall knowingly cause or permit any poisonous, noxious or polluting matter to enter into any stream or well."
+    },
+    {
+        "title": "The Air (Prevention and Control of Pollution) Act, 1981 — Section 21 (Consent for emission)",
+        "jurisdiction": "India",
+        "tags": "air,pollution,consent",
+        "text": "Section 21: No person shall establish or operate any industrial plant without consent from the State Pollution Control Board."
+    },
+    {
+        "title": "The National Rural Employment Guarantee Act, 2005 — Section 3 (Guarantee of rural employment)",
+        "jurisdiction": "India",
+        "tags": "employment,rural,work",
+        "text": "Section 3: Every household whose adult members volunteer to do unskilled manual work shall be entitled to at least 100 days of guaranteed wage employment in a financial year."
+    },
+    {
+        "title": "The Payment of Bonus Act, 1965 — Section 10 (Payment of minimum bonus)",
+        "jurisdiction": "India",
+        "tags": "bonus,labour,wages",
+        "text": "Section 10: Every employer shall be bound to pay a minimum bonus to every employee at the rate of 8.33% of salary or wage."
+    },
+    {
+        "title": "The Payment of Gratuity Act, 1972 — Section 4 (Payment of gratuity)",
+        "jurisdiction": "India",
+        "tags": "gratuity,labour,benefits",
+        "text": "Section 4: Gratuity shall be payable to an employee on termination of employment after at least five years of continuous service."
+    },
+    {
+        "title": "The Trade Unions Act, 1926 — Section 2(h) (Definition of trade union)",
+        "jurisdiction": "India",
+        "tags": "trade union,workers,rights",
+        "text": "Section 2(h): Trade union means any combination of workers or employers formed primarily for regulating relations between themselves."
+    },
+    {
+        "title": "The Legal Services Authorities Act, 1987 — Section 12 (Entitlement to legal services)",
+        "jurisdiction": "India",
+        "tags": "legal aid,justice,rights",
+        "text": "Section 12: Every person belonging to weaker sections, women, children, or others as specified shall be entitled to legal services."
+    },
+    {
+        "title": "The Representation of the People Act, 1951 — Section 62 (Right to vote)",
+        "jurisdiction": "India",
+        "tags": "elections,voting,rights",
+        "text": "Section 62: Every person enrolled in the electoral roll of a constituency shall be entitled to vote in that constituency."
+    },
+    {
+        "title": "The Indian Telegraph Act, 1885 — Section 5(2) (Interception of messages)",
+        "jurisdiction": "India",
+        "tags": "telecom,privacy,security",
+        "text": "Section 5(2): The Government may intercept messages in the interest of public safety or national security."
+    },
+    {
+        "title": "The Epidemic Diseases Act, 1897 — Section 2 (Special powers of government)",
+        "jurisdiction": "India",
+        "tags": "epidemic,diseases,health",
+        "text": "Section 2: The State Government may take special measures to prevent the outbreak or spread of an epidemic disease."
+    },
+    {
+        "title": "The Drugs and Cosmetics Act, 1940 — Section 18 (Prohibition of manufacture and sale of certain drugs)",
+        "jurisdiction": "India",
+        "tags": "drugs,medicine,regulation",
+        "text": "Section 18: No person shall manufacture or sell any drug that is misbranded, adulterated, or spurious."
+    },
+    {
+        "title": "The Food Safety and Standards Act, 2006 — Section 31 (Licensing and registration of food business)",
+        "jurisdiction": "India",
+        "tags": "food,safety,licensing",
+        "text": "Section 31: No person shall commence or carry on any food business without a license from the Food Safety Authority."
+    },
+    {
+        "title": "The Prevention of Food Adulteration Act, 1954 — Section 7 (Prohibition of manufacture, sale, etc. of adulterated food)",
+        "jurisdiction": "India",
+        "tags": "food,adulteration,health",
+        "text": "Section 7: No person shall manufacture, sell, or distribute any food that is adulterated or misbranded."
+    },
+    {
+        "title": "The Indian Medical Council Act, 1956 — Section 21 (Indian Medical Register)",
+        "jurisdiction": "India",
+        "tags": "medical,doctors,register",
+        "text": "Section 21: The Council shall maintain the Indian Medical Register containing names of persons enrolled in State Medical Registers."
+    },
+    {
+        "title": "The Advocates Act, 1961 — Section 29 (Advocates as only recognized class of legal practitioners)",
+        "jurisdiction": "India",
+        "tags": "advocates,legal,profession",
+        "text": "Section 29: Advocates are the only recognized class of persons entitled to practice the profession of law in India."
+    },
+    {
+        "title": "The Contempt of Courts Act, 1971 — Section 2(c) (Criminal contempt definition)",
+        "jurisdiction": "India",
+        "tags": "contempt,courts,justice",
+        "text": "Section 2(c): Criminal contempt means publication or act that scandalizes or lowers the authority of the court or obstructs the administration of justice."
+    },
+    {
+        "title": "The Prevention of Terrorism Act, 2002 (Repealed) — Section 3 (Punishment for terrorist acts)",
+        "jurisdiction": "India",
+        "tags": "terrorism,security,law",
+        "text": "Section 3: Whoever commits a terrorist act shall be punishable with death or imprisonment for life and fine."
+    },
+    {
+        "title": "The Juvenile Justice Act, 2000 (Repealed) — Section 4 (Juvenile Justice Board)",
+        "jurisdiction": "India",
+        "tags": "juvenile,justice,board",
+        "text": "Section 4: The State Government shall constitute a Juvenile Justice Board for every district to deal with children in conflict with law."
+    },
+    {
+        "title": "The Indian Stamp Act, 1899 — Section 3 (Instruments chargeable with duty)",
+        "jurisdiction": "India",
+        "tags": "stamp duty,finance,tax",
+        "text": "Section 3: Every instrument mentioned in the Schedule shall be chargeable with duty as prescribed."
+    },
+    {
+        "title": "The Foreign Contribution (Regulation) Act, 2010 — Section 3 (Prohibition on certain persons from receiving foreign contribution)",
+        "jurisdiction": "India",
+        "tags": "foreign,contribution,regulation",
+        "text": "Section 3: No candidate for election, judge, government servant, or political party shall accept foreign contribution."
+    },
+    {
+        "title": "Factories Act, 1948 — Section 51 (Weekly hours)",
+        "jurisdiction": "India",
+        "tags": "labour,factory,working hours",
+        "text": "No adult worker shall be required or allowed to work in a factory for more than forty-eight hours in any week."
+    },
+    {
+        "title": "Factories Act, 1948 — Section 54 (Daily hours)",
+        "jurisdiction": "India",
+        "tags": "labour,factory,working hours",
+        "text": "Subject to the provisions of Section 51, no adult worker shall be required or allowed to work in a factory for more than nine hours in any day."
+    },
+    {
+        "title": "Factories Act, 1948 — Section 87 (Dangerous operations)",
+        "jurisdiction": "India",
+        "tags": "labour,health,safety",
+        "text": "The State Government may make rules specifying any operation in a factory as dangerous, and require precautions for the protection of workers employed therein."
+    },
+    {
+        "title": "Payment of Gratuity Act, 1972 — Section 4 (Payment of gratuity)",
+        "jurisdiction": "India",
+        "tags": "labour,gratuity,employment benefits",
+        "text": "Gratuity shall be payable to an employee on the termination of employment after rendering continuous service of not less than five years."
+    },
+    {
+        "title": "Payment of Gratuity Act, 1972 — Section 7 (Determination of amount)",
+        "jurisdiction": "India",
+        "tags": "labour,gratuity,calculation",
+        "text": "The employer shall determine the amount of gratuity and give notice in writing to the person to whom it is payable and to the controlling authority."
+    },
+    {
+        "title": "Minimum Wages Act, 1948 — Section 3 (Fixing minimum rates)",
+        "jurisdiction": "India",
+        "tags": "labour,wages,income",
+        "text": "The appropriate government shall fix the minimum rates of wages payable to employees in scheduled employments."
+    },
+    {
+        "title": "Minimum Wages Act, 1948 — Section 12 (Payment of minimum rates)",
+        "jurisdiction": "India",
+        "tags": "labour,wages,payment",
+        "text": "No employer shall pay to any employee wages at a rate lower than the minimum rate of wages fixed for that class of employees."
+    },
+    {
+        "title": "Companies Act, 2013 — Section 2(20) (Definition of company)",
+        "jurisdiction": "India",
+        "tags": "company,corporate,law",
+        "text": "‘Company’ means a company incorporated under this Act or under any previous company law."
+    },
+    {
+        "title": "Companies Act, 2013 — Section 135 (Corporate Social Responsibility)",
+        "jurisdiction": "India",
+        "tags": "company,CSR,obligations",
+        "text": "Every company having net worth of Rs. 500 crore or more, or turnover of Rs. 1,000 crore or more, shall constitute a Corporate Social Responsibility Committee of the Board."
+    },
+    {
+        "title": "Companies Act, 2013 — Section 149 (Board of Directors)",
+        "jurisdiction": "India",
+        "tags": "company,management,directors",
+        "text": "Every company shall have a Board of Directors consisting of individuals as directors, with a minimum number as prescribed by the Act."
+    },
+    {
+        "title": "Companies Act, 2013 — Section 173 (Board meetings)",
+        "jurisdiction": "India",
+        "tags": "company,meetings,governance",
+        "text": "Every company shall hold the first meeting of the Board of Directors within thirty days of the date of its incorporation and thereafter hold a minimum number of meetings each year."
+    },
+    {
+        "title": "Companies Act, 2013 — Section 185 (Loans to directors)",
+        "jurisdiction": "India",
+        "tags": "company,finance,restrictions",
+        "text": "No company shall, directly or indirectly, advance any loan to its directors or to any other person in whom the director is interested, except as permitted under the Act."
+    },
+    {
+        "title": "Securities Contracts (Regulation) Act, 1956 — Section 2(h) (Definition of securities)",
+        "jurisdiction": "India",
+        "tags": "securities,finance,regulation",
+        "text": "‘Securities’ include shares, scrips, stocks, bonds, debentures, government securities, and rights or interest therein."
+    },
+    {
+        "title": "Securities and Exchange Board of India Act, 1992 — Section 11 (Functions of SEBI)",
+        "jurisdiction": "India",
+        "tags": "finance,regulator,SEBI",
+        "text": "It shall be the duty of the Board to protect the interests of investors in securities and to promote the development of, and to regulate, the securities market."
+    },
+    {
+        "title": "Indian Evidence Act, 1872 — Section 3 (Interpretation clause)",
+        "jurisdiction": "India",
+        "tags": "evidence,law,court",
+        "text": "‘Evidence’ means and includes all statements which the court permits or requires to be made before it by witnesses in relation to matters of fact under inquiry."
+    },
+    {
+        "title": "Indian Evidence Act, 1872 — Section 32 (Statements by persons who cannot be called as witnesses)",
+        "jurisdiction": "India",
+        "tags": "evidence,hearsay,witness",
+        "text": "Statements made by a person who is dead, or who cannot be found, or who is incapable of giving evidence, are relevant under certain circumstances."
+    },
+    {
+        "title": "Indian Penal Code, 1860 — Section 124A (Sedition)",
+        "jurisdiction": "India",
+        "tags": "criminal,sedition,speech",
+        "text": "Whoever, by words or otherwise, brings or attempts to bring into hatred or contempt, or excites disaffection towards the Government shall be punished with imprisonment for life or with imprisonment up to three years."
+    },
+    {
+        "title": "Indian Penal Code, 1860 — Section 302 (Murder)",
+        "jurisdiction": "India",
+        "tags": "criminal,murder,homicide",
+        "text": "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine."
+    },
+    {
+        "title": "Indian Penal Code, 1860 — Section 375 (Rape definition)",
+        "jurisdiction": "India",
+        "tags": "criminal,sexual offences,rape",
+        "text": "A man is said to commit rape if he has sexual intercourse with a woman under circumstances falling within any of the six descriptions specified by law."
+    },
+    {
+        "title": "Indian Penal Code, 1860 — Section 420 (Cheating and dishonestly inducing delivery of property)",
+        "jurisdiction": "India",
+        "tags": "criminal,cheating,fraud",
+        "text": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property shall be punished with imprisonment up to seven years and shall also be liable to fine."
+    },
+    {
+        "title": "Juvenile Justice Act, 2015 — Section 2(12) (Child)",
+        "jurisdiction": "India",
+        "tags": "child law,juvenile,definition",
+        "text": "‘Child’ means a person who has not completed eighteen years of age."
+    },
+    {
+        "title": "Juvenile Justice Act, 2015 — Section 27 (Child Welfare Committee)",
+        "jurisdiction": "India",
+        "tags": "child law,welfare,committee",
+        "text": "The State Government shall constitute for every district one or more Child Welfare Committees to exercise powers and functions relating to children in need of care and protection."
+    },
+    {
+        "title": "Juvenile Justice Act, 2015 — Section 74 (Prohibition on disclosure of identity)",
+        "jurisdiction": "India",
+        "tags": "child law,privacy,protection",
+        "text": "No report in any newspaper, magazine, or visual media of any inquiry regarding a child shall disclose the name, address, or other particulars which may lead to the identification of the child."
+    },
+    {
+        "title": "Consumer Protection Act, 2019 — Section 2(7) (Definition of consumer)",
+        "jurisdiction": "India",
+        "tags": "consumer,rights,definition",
+        "text": "‘Consumer’ means any person who buys any goods or hires any service for consideration, but does not include a person who obtains goods for resale or commercial purpose."
+    },
+    {
+        "title": "Consumer Protection Act, 2019 — Section 21 (Powers of Central Authority)",
+        "jurisdiction": "India",
+        "tags": "consumer,enforcement,authority",
+        "text": "The Central Authority shall protect, promote and enforce the rights of consumers as a class, and prevent violation of consumer rights."
+    },
+    {
+        "title": "Consumer Protection Act, 2019 — Section 35 (Consumer Disputes Redressal Commission)",
+        "jurisdiction": "India",
+        "tags": "consumer,disputes,redressal",
+        "text": "The State Government shall establish a Consumer Disputes Redressal Commission at the district level to entertain complaints from consumers."
+    },
+    {
+        "title": "Consumer Protection Act, 2019 — Section 34 (District Consumer Disputes Redressal Commission)",
+        "jurisdiction": "India",
+        "tags": "consumer,redressal,disputes",
+        "text": "A complaint may be filed with the District Commission by a consumer within its jurisdiction for goods or services valued up to one crore rupees."
+    },
+    {
+        "title": "Consumer Protection Act, 2019 — Section 47 (State Commission)",
+        "jurisdiction": "India",
+        "tags": "consumer,appeals,state",
+        "text": "The State Commission shall entertain complaints where the value exceeds one crore rupees but does not exceed ten crore rupees, and hear appeals against orders of any District Commission."
+    },
+    {
+        "title": "Consumer Protection Act, 2019 — Section 58 (National Commission)",
+        "jurisdiction": "India",
+        "tags": "consumer,appeals,national",
+        "text": "The National Commission shall entertain complaints where the value of goods or services exceeds ten crore rupees, and hear appeals against orders of any State Commission."
+    },
+    {
+        "title": "Information Technology Act, 2000 — Section 43 (Penalty for damage to computer)",
+        "jurisdiction": "India",
+        "tags": "IT,cyberlaw,penalty",
+        "text": "If any person without permission accesses, downloads, disrupts, or damages a computer resource, they shall be liable to pay compensation by way of damages."
+    },
+    {
+        "title": "Information Technology Act, 2000 — Section 66 (Computer-related offences)",
+        "jurisdiction": "India",
+        "tags": "IT,cybercrime,criminal",
+        "text": "If any person, dishonestly or fraudulently, does any act referred to in Section 43, they shall be punished with imprisonment up to three years or with fine up to five lakh rupees."
+    },
+    {
+        "title": "Information Technology Act, 2000 — Section 67 (Publishing obscene material in electronic form)",
+        "jurisdiction": "India",
+        "tags": "IT,cybercrime,obscenity",
+        "text": "Whoever publishes or transmits obscene material in electronic form shall be punished with imprisonment up to three years and with fine up to five lakh rupees."
+    },
+    {
+        "title": "Copyright Act, 1957 — Section 14 (Meaning of copyright)",
+        "jurisdiction": "India",
+        "tags": "IP,copyright,rights",
+        "text": "‘Copyright’ means the exclusive right to reproduce, distribute, perform, or adapt the work in specified categories of works."
+    },
+    {
+        "title": "Copyright Act, 1957 — Section 22 (Term of copyright in published literary works)",
+        "jurisdiction": "India",
+        "tags": "IP,copyright,duration",
+        "text": "Copyright in a published literary, dramatic, musical, or artistic work subsists until sixty years after the death of the author."
+    },
+    {
+        "title": "Patents Act, 1970 — Section 3 (What are not inventions)",
+        "jurisdiction": "India",
+        "tags": "IP,patents,inventions",
+        "text": "Discoveries, abstract theories, and certain methods such as business methods are not considered inventions within the meaning of this Act."
+    },
+    {
+        "title": "Patents Act, 1970 — Section 48 (Rights of patentees)",
+        "jurisdiction": "India",
+        "tags": "IP,patents,rights",
+        "text": "A patent granted under this Act confers upon the patentee the exclusive right to prevent third parties from making, using, or selling the patented invention."
+    },
+    {
+        "title": "Trade Marks Act, 1999 — Section 2(zb) (Definition of trademark)",
+        "jurisdiction": "India",
+        "tags": "IP,trademark,definition",
+        "text": "‘Trademark’ means a mark capable of being represented graphically and capable of distinguishing goods or services of one person from those of others."
+    },
+    {
+        "title": "Trade Marks Act, 1999 — Section 28 (Rights conferred by registration)",
+        "jurisdiction": "India",
+        "tags": "IP,trademark,rights",
+        "text": "The registration of a trademark confers upon the proprietor the exclusive right to use the mark in relation to the goods or services for which it is registered."
+    },
+    {
+        "title": "Designs Act, 2000 — Section 2(d) (Definition of design)",
+        "jurisdiction": "India",
+        "tags": "IP,design,definition",
+        "text": "‘Design’ means only the features of shape, configuration, pattern, ornament or composition of lines or colors applied to any article by an industrial process."
+    },
+    {
+        "title": "Designs Act, 2000 — Section 22 (Piracy of registered design)",
+        "jurisdiction": "India",
+        "tags": "IP,design,infringement",
+        "text": "During the existence of copyright in a design, it is unlawful for any person to apply it to an article without the consent of the registered proprietor."
+    },
+    {
+        "title": "Arbitration and Conciliation Act, 1996 — Section 7 (Arbitration agreement)",
+        "jurisdiction": "India",
+        "tags": "arbitration,dispute resolution,contract",
+        "text": "‘Arbitration agreement’ means an agreement by the parties to submit to arbitration all or certain disputes which have arisen or may arise between them."
+    },
+    {
+        "title": "Arbitration and Conciliation Act, 1996 — Section 34 (Application for setting aside arbitral award)",
+        "jurisdiction": "India",
+        "tags": "arbitration,award,challenge",
+        "text": "An arbitral award may be set aside by the court if the party making the application proves specified grounds such as incapacity, invalid agreement, or violation of public policy."
+    },
+    {
+        "title": "Right to Information Act, 2005 — Section 3 (Right to information)",
+        "jurisdiction": "India",
+        "tags": "RTI,transparency,citizenship",
+        "text": "Subject to the provisions of this Act, all citizens shall have the right to information."
+    },
+    {
+        "title": "Right to Information Act, 2005 — Section 6 (Request for obtaining information)",
+        "jurisdiction": "India",
+        "tags": "RTI,request,procedure",
+        "text": "A person who desires to obtain information shall make a request in writing or electronically in English, Hindi, or the official language of the area."
+    },
+    {
+        "title": "Right to Information Act, 2005 — Section 8 (Exemption from disclosure of information)",
+        "jurisdiction": "India",
+        "tags": "RTI,exemptions,secrecy",
+        "text": "There shall be no obligation to give any citizen information disclosure of which would prejudicially affect the sovereignty and integrity of India, security, or strategic interests."
+    },
+    {
+        "title": "Environmental Protection Act, 1986 — Section 3 (Power of central government)",
+        "jurisdiction": "India",
+        "tags": "environment,protection,government",
+        "text": "The Central Government shall have the power to take measures for protecting and improving the quality of the environment and preventing hazards to living beings."
+    },
+    {
+        "title": "Environmental Protection Act, 1986 — Section 15 (Penalty for contravention)",
+        "jurisdiction": "India",
+        "tags": "environment,penalty,violation",
+        "text": "Whoever fails to comply with the provisions of this Act shall be punishable with imprisonment up to five years or with fine up to one lakh rupees, or both."
+    },
+    {
+        "title": "Biological Diversity Act, 2002 — Section 3 (Restrictions on foreign access to biological resources)",
+        "jurisdiction": "India",
+        "tags": "biodiversity,foreign access,regulation",
+        "text": "No person referred to in sub-section (2) shall obtain any biological resource occurring in India without prior approval of the National Biodiversity Authority."
+    },
+    {
+        "title": "Biological Diversity Act, 2002 — Section 36 (Duties of Central Government)",
+        "jurisdiction": "India",
+        "tags": "biodiversity,government,duties",
+        "text": "The Central Government shall develop national strategies, plans, and programs for conservation and sustainable use of biological diversity."
+    },
+    {
+        "title": "Wildlife Protection Act, 1972 — Section 9 (Prohibition of hunting)",
+        "jurisdiction": "India",
+        "tags": "wildlife,protection,hunting",
+        "text": "No person shall hunt any wild animal specified in Schedules I, II, III, and IV except as provided under this Act."
+    },
+        {
+        "title": "Wildlife Protection Act, 1972 — Section 17A (Prohibition of picking plants)",
+        "jurisdiction": "India",
+        "tags": "wildlife,plants,protection",
+        "text": "No person shall uproot, damage, collect, or destroy any specified plant from a protected area except under a permit granted by the authorities."
+    },
+    {
+        "title": "Wildlife Protection Act, 1972 — Section 39 (Wild animals as government property)",
+        "jurisdiction": "India",
+        "tags": "wildlife,ownership,state",
+        "text": "Every wild animal, other than vermin, hunted or kept in captivity shall be the property of the State Government."
+    },
+    {
+        "title": "Forest Rights Act, 2006 — Section 3 (Forest rights of forest-dwelling communities)",
+        "jurisdiction": "India",
+        "tags": "forest,rights,tribal",
+        "text": "Forest rights shall be vested in forest-dwelling Scheduled Tribes and other traditional forest dwellers who have been residing in forests for generations."
+    },
+    {
+        "title": "Forest Rights Act, 2006 — Section 5 (Duties of forest rights holders)",
+        "jurisdiction": "India",
+        "tags": "forest,conservation,duties",
+        "text": "Holders of forest rights shall protect wildlife, forest, and biodiversity, and ensure that adjoining catchments are preserved."
+    },
+    {
+        "title": "Disaster Management Act, 2005 — Section 6 (Powers of National Authority)",
+        "jurisdiction": "India",
+        "tags": "disaster,management,national",
+        "text": "The National Authority shall lay down policies, plans, and guidelines for disaster management and ensure timely and effective response."
+    },
+    {
+        "title": "Disaster Management Act, 2005 — Section 65 (Power to requisition resources)",
+        "jurisdiction": "India",
+        "tags": "disaster,resources,requisition",
+        "text": "The government may requisition resources, vehicles, and premises from any person or authority for rescue operations during a disaster."
+    },
+    {
+        "title": "National Green Tribunal Act, 2010 — Section 14 (Tribunal jurisdiction)",
+        "jurisdiction": "India",
+        "tags": "environment,tribunal,disputes",
+        "text": "The Tribunal shall have jurisdiction over all civil cases where a substantial question relating to the environment is involved."
+    },
+    {
+        "title": "National Green Tribunal Act, 2010 — Section 15 (Relief and compensation)",
+        "jurisdiction": "India",
+        "tags": "environment,compensation,relief",
+        "text": "The Tribunal may provide relief, compensation, and restitution of property damaged or environment degraded due to environmental harm."
+    },
+    {
+        "title": "Prevention of Money Laundering Act, 2002 — Section 3 (Offence of money laundering)",
+        "jurisdiction": "India",
+        "tags": "finance,money laundering,crime",
+        "text": "Whosoever directly or indirectly attempts to indulge or knowingly assists in money laundering shall be guilty of the offence."
+    },
+    {
+        "title": "Prevention of Money Laundering Act, 2002 — Section 5 (Attachment of property)",
+        "jurisdiction": "India",
+        "tags": "finance,property,attachment",
+        "text": "The Director or other authorized officer may provisionally attach property believed to be involved in money laundering."
+    },
+    {
+        "title": "Lokpal and Lokayuktas Act, 2013 — Section 3 (Establishment of Lokpal)",
+        "jurisdiction": "India",
+        "tags": "anti-corruption,lokpal,governance",
+        "text": "The Lokpal shall consist of a Chairperson and members to inquire into allegations of corruption against public functionaries."
+    },
+    {
+        "title": "Lokpal and Lokayuktas Act, 2013 — Section 14 (Jurisdiction of Lokpal)",
+        "jurisdiction": "India",
+        "tags": "anti-corruption,jurisdiction,authority",
+        "text": "The Lokpal shall inquire into allegations of corruption against the Prime Minister, Ministers, MPs, and other public servants."
+    },
+    {
+        "title": "Right of Children to Free and Compulsory Education Act, 2009 — Section 3 (Right to education)",
+        "jurisdiction": "India",
+        "tags": "education,children,right",
+        "text": "Every child of the age of six to fourteen years shall have the right to free and compulsory education in a neighbourhood school."
+    },
+    {
+        "title": "Right of Children to Free and Compulsory Education Act, 2009 — Section 12 (Obligation of schools)",
+        "jurisdiction": "India",
+        "tags": "education,schools,obligation",
+        "text": "Every recognized school shall admit at least twenty-five percent of children from disadvantaged groups in Class I."
+    },
+    {
+        "title": "Maternity Benefit Act, 1961 — Section 5 (Right to payment of maternity benefit)",
+        "jurisdiction": "India",
+        "tags": "labour,women,maternity",
+        "text": "Every woman shall be entitled to maternity benefit at the rate of her average daily wage for the period of her actual absence."
+    },
+    {
+        "title": "Maternity Benefit Act, 1961 — Section 11 (Nursing breaks)",
+        "jurisdiction": "India",
+        "tags": "labour,women,childcare",
+        "text": "Every woman delivered of a child shall be allowed two breaks of prescribed duration in the course of her daily work for nursing the child."
+    },
+    {
+        "title": "Employees’ Provident Funds and Miscellaneous Provisions Act, 1952 — Section 6 (Contributions)",
+        "jurisdiction": "India",
+        "tags": "labour,provident fund,contribution",
+        "text": "Both employer and employee shall contribute to the Provident Fund at the prescribed percentage of wages."
+    },
+    {
+        "title": "Employees’ Provident Funds and Miscellaneous Provisions Act, 1952 — Section 10 (Protection against attachment)",
+        "jurisdiction": "India",
+        "tags": "labour,provident fund,protection",
+        "text": "The amount standing to the credit of any member in the Provident Fund shall not be liable to attachment under any decree or order of a court."
+    },
+    {
+        "title": "Payment of Bonus Act, 1965 — Section 10 (Payment of minimum bonus)",
+        "jurisdiction": "India",
+        "tags": "labour,bonus,payment",
+        "text": "Every employer shall be bound to pay to every employee a minimum bonus which shall be 8.33% of the salary or wage earned by the employee."
+    },
+    {
+        "title": "Payment of Bonus Act, 1965 — Section 11 (Calculation of bonus with respect to certain employees)",
+        "jurisdiction": "India",
+        "tags": "labour,bonus,calculation",
+        "text": "In computing the bonus payable to an employee, the salary or wage of an employee shall be deemed to be not more than the prescribed amount per month."
+    },
+    {
+        "title": "Industrial Disputes Act, 1947 — Section 2(k) (Definition of industrial dispute)",
+        "jurisdiction": "India",
+        "tags": "labour,disputes,definition",
+        "text": "‘Industrial dispute’ means any dispute or difference between employers and employers, or between employers and workmen, or between workmen and workmen."
+    },
+    {
+        "title": "Industrial Disputes Act, 1947 — Section 25F (Conditions precedent to retrenchment)",
+        "jurisdiction": "India",
+        "tags": "labour,retrenchment,employment",
+        "text": "No workman employed for more than one year shall be retrenched without one month’s notice and payment of compensation equivalent to 15 days’ average pay for every completed year of service."
+    },
+    {
+        "title": "Shops and Establishments Act (Example — Delhi) — Working hours",
+        "jurisdiction": "Delhi, India",
+        "tags": "labour,shops,working hours",
+        "text": "No employee in any shop or commercial establishment shall be required to work for more than nine hours in any day or forty-eight hours in any week."
+    },
+    {
+        "title": "Shops and Establishments Act (Example — Maharashtra) — Weekly holiday",
+        "jurisdiction": "Maharashtra, India",
+        "tags": "labour,shops,holiday",
+        "text": "Every employee in a shop or establishment shall be allowed at least one whole day holiday each week."
+    },
+    {
+        "title": "Municipal Corporations Act (Example — Delhi) — Property tax",
+        "jurisdiction": "Delhi, India",
+        "tags": "municipal,tax,property",
+        "text": "Every owner of property within the municipal area shall be liable to pay property tax at the rate fixed by the Corporation."
+    },
+    {
+        "title": "Municipal Corporations Act (Example — Chennai) — Sanitation",
+        "jurisdiction": "Chennai, India",
+        "tags": "municipal,sanitation,duties",
+        "text": "The Corporation shall be responsible for maintaining cleanliness, sanitation, and public health in its jurisdiction."
+    },
+    {
+        "title": "The Indian Evidence Act, 1872 — Section 65B (Electronic records)",
+        "jurisdiction": "India",
+        "tags": "evidence,electronic,admissibility",
+        "text": "Section 65B: Electronic records are admissible as evidence in court if conditions relating to authenticity, integrity, and certification are satisfied."
+    },
+    {
+        "title": "The Registration Act, 1908 — Section 17 (Compulsory registration of documents)",
+        "jurisdiction": "India",
+        "tags": "registration,property,documents",
+        "text": "Section 17: Documents relating to immovable property transactions of value exceeding one hundred rupees must be registered to have legal effect."
+    },
+    {
+        "title": "The Companies Act, 2013 — Section 12 (Registered office of company)",
+        "jurisdiction": "India",
+        "tags": "company,compliance,documents",
+        "text":"Section 12: Every company must have a registered office capable of receiving communications and notices, and must notify the registrar of its location."
+    },
+    {
+        "title": "The Arbitration and Conciliation Act, 1996 — Section 7 (Arbitration agreement)",
+        "jurisdiction": "India",
+        "tags": "arbitration,dispute resolution,agreement",
+        "text": "Section 7: An arbitration agreement must be in writing and may be contained in a document signed by the parties or in an exchange of letters or electronic communication."
+    },
+    {
+        "title": "The Partnership Act, 1932 — Section 4 (Definition of partnership)",
+        "jurisdiction": "India",
+        "tags": "partnership,agreement,business",
+        "text": "Section 4: Partnership is the relation between persons who have agreed to share the profits of a business carried on by all or any of them acting for all."
+    },
+    {
+        "title": "The Power of Attorney Act, 1882 — Section 2 (Execution of power of attorney)",
+        "jurisdiction": "India",
+        "tags": "power of attorney,agency,documents",
+        "text": "Section 2: A power of attorney is a legal instrument empowering a specified person to act on behalf of the principal in matters stated within the document."   
+    },
+    {
+        "title": "The Indian Succession Act, 1925 — Section 59 (Capacity to make will)",
+        "jurisdiction": "India",
+        "tags": "succession,will,documents",
+        "text": "Section 59: Every person of sound mind not being a minor may dispose of his property by will, subject to statutory restrictions."      
+    },
+    {
+        "title": "The Information Technology Act, 2000 — Section 5 (Legal recognition of electronic signatures)",
+        "jurisdiction": "India",
+        "tags": "it,e-signature,documents",
+        "text": "Section 5: Where any law requires that a document should be signed, such requirement shall be deemed "
+    },
+    {
+        "title": "The Notaries Act, 1952 — Section 8 (Functions of notaries)",
+        "jurisdiction": "India",
+        "tags": "notary,authentication,documents",
+        "text": "Section 8: A notary may verify, authenticate, certify, and attest the execution of documents "
+    },
+    {
+        "title": "The Stamp Act, 1899 — Section 3 (Instruments chargeable with duty)",
+        "jurisdiction": "India",
+        "tags": "stamp duty,documents,contracts",
+        "text": "Section 3: Every instrument specified in the schedule, such as conveyances, leases, and bonds, shall be chargeable with the proper stamp duty."
+            
+    }
+]
