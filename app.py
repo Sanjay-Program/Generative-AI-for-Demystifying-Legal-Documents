@@ -472,7 +472,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentDocumentText = '', negotiationHistory = [];
     const langSelector = document.getElementById('languageSelector');
 
-    // --- Helper Functions ---
+    // --- Helper Functions (Restored) ---
     async function fetchAPI(endpoint, body, method = 'POST', stringify = true) {
         try {
             const options = { method };
@@ -486,7 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const response = await fetch(endpoint, options);
             if (!response.ok) {
-                const err = await response.json().catch(() => ({ detail: 'Server error' }));
+                const err = await response.json().catch(() => ({ detail: 'Server error with non-JSON response' }));
                 throw new Error(err.detail);
             }
             return await response.json();
@@ -496,8 +496,33 @@ document.addEventListener('DOMContentLoaded', () => {
             return null;
         }
     }
+    
+    function typewriterEffect(element, text) {
+        let i = 0;
+        element.innerHTML = '';
+        const cursor = document.createElement('span');
+        cursor.className = 'cursor';
+        element.appendChild(cursor);
+        function type() {
+            if (i < text.length) {
+                element.insertBefore(document.createTextNode(text.charAt(i)), cursor);
+                i++;
+                setTimeout(type, 20);
+            } else {
+                cursor.remove();
+            }
+        }
+        type();
+    }
 
-    function typewriterEffect(element, text) { let i = 0; element.innerHTML = ''; const cursor = document.createElement('span'); cursor.className = 'cursor'; element.appendChild(cursor); function type() { if (i < text.length) { element.insertBefore(document.createTextNode(text.charAt(i)), cursor); i++; setTimeout(type, 20); } else { cursor.remove(); } } type(); }
+    const textToSpeech = (text, lang = langSelector.value) => {
+        if (!('speechSynthesis' in window)) return;
+        speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        const langMap = { 'en': 'en-IN', 'es': 'es-ES', 'hi': 'hi-IN', 'fr': 'fr-FR', 'ta': 'ta-IN', 'te': 'te-IN', 'ml': 'ml-IN', 'kn': 'kn-IN' };
+        utterance.lang = langMap[lang] || 'en-IN';
+        window.speechSynthesis.speak(utterance);
+    };
 
     // --- Event Listeners ---
     document.getElementById('documentUpload').addEventListener('change', (e) => {
@@ -527,55 +552,120 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('dashboard').classList.remove('hidden');
         }
     });
-
-    const legalAidOutput = document.getElementById('legalAidOutput');
-    async function performAndRenderLawSearch(payload) {
-        legalAidOutput.innerHTML = '<em>Fetching relevant laws and suggestions...</em>';
-        const response = await fetchAPI('/laws_search', payload, 'POST');
-
-        if (!response) {
-            legalAidOutput.innerHTML = '<p>Error fetching data.</p>';
-            return;
-        }
-
-        let finalHtml = response.laws_html || "";
-        if (response.ai_suggestions_json) {
-            finalHtml += "<h4 style='margin-top:12px'>AI Suggestions</h4>";
-            try {
-                const cleanJsonString = response.ai_suggestions_json.replace(/```json\\n?|\\n?```/g, '').trim();
-                const suggestionsData = JSON.parse(cleanJsonString);
-                
-                if (suggestionsData.laws && suggestionsData.laws.length > 0) {
-                    finalHtml += "<h5>Relevant Legal Topics</h5><ul>";
-                    suggestionsData.laws.forEach(law => {
-                        finalHtml += `<li><strong>${law.title}:</strong> ${law.reason} <button class="search-db-btn" data-law-title="${law.title}">Search DB</button></li>`;
-                    });
-                    finalHtml += "</ul>";
-                }
-                if (suggestionsData.suggestions && suggestionsData.suggestions.length > 0) {
-                    finalHtml += "<h5 style='margin-top:10px;'>Actionable Suggestions</h5><ul>";
-                    suggestionsData.suggestions.forEach(suggestion => {
-                        finalHtml += `<li>${suggestion}</li>`;
-                    });
-                    finalHtml += "</ul>";
-                }
-            } catch (e) {
-                finalHtml += `<p>Could not format AI suggestions. Raw response:</p><pre>${response.ai_suggestions_json}</pre>`;
-            }
-        }
-        legalAidOutput.innerHTML = finalHtml;
-    }
     
-    document.getElementById('legalAidBtn').addEventListener('click', () => {
-        performAndRenderLawSearch({ document_text: currentDocumentText, q: "", language: langSelector.value, jurisdiction: "Chennai" });
-    });
+    // --- Interactive Feature Handlers (Corrected) ---
+    const setupInteractiveHandler = (inputId, btnId, endpoint, buildPayload, handleResponse) => {
+        const input = document.getElementById(inputId);
+        const btn = document.getElementById(btnId);
+        async function submit() {
+            const value = input.value.trim();
+            if (!value) return;
+            const payload = buildPayload(value);
+            input.value = '';
+            const response = await fetchAPI(endpoint, payload);
+            if (response) handleResponse(response, value);
+        }
+        btn.addEventListener('click', submit);
+        input.addEventListener('keypress', (e) => e.key === 'Enter' && submit());
+    };
 
-    legalAidOutput.addEventListener('click', (event) => {
-        if (event.target.classList.contains('search-db-btn')) {
-            const lawTitle = event.target.getAttribute('data-law-title');
-            performAndRenderLawSearch({ document_text: "", q: lawTitle, language: langSelector.value, jurisdiction: "India" });
+    // Q&A Handler
+    setupInteractiveHandler('qaInput', 'askBtn', '/ask',
+        (question) => {
+            const qaOutput = document.getElementById('qaOutput');
+            qaOutput.innerHTML += `<div class="user-msg">${question}</div>`;
+            qaOutput.scrollTop = qaOutput.scrollHeight;
+            return { document_text: currentDocumentText, question, language: langSelector.value };
+        },
+        (res) => {
+            const qaOutput = document.getElementById('qaOutput');
+            const aiMsg = document.createElement('div');
+            aiMsg.className = 'ai-msg';
+            qaOutput.appendChild(aiMsg);
+            typewriterEffect(aiMsg, res.answer);
+            textToSpeech(res.answer, langSelector.value);
+            qaOutput.scrollTop = qaOutput.scrollHeight;
+        }
+    );
+
+    // Negotiation Handler
+    setupInteractiveHandler('negotiationInput', 'negotiateBtn', '/negotiate',
+        (message) => {
+            const negOutput = document.getElementById('negotiationOutput');
+            negOutput.innerHTML += `<div class="user-msg">${message}</div>`;
+            negOutput.scrollTop = negOutput.scrollHeight;
+            return { history: negotiationHistory, user_message: message };
+        },
+        (res) => {
+            negotiationHistory = res.updated_history;
+            const negOutput = document.getElementById('negotiationOutput');
+            const aiMsg = document.createElement('div');
+            aiMsg.className = 'ai-msg';
+            negOutput.appendChild(aiMsg);
+            typewriterEffect(aiMsg, res.ai_response);
+            negOutput.scrollTop = negOutput.scrollHeight;
+        }
+    );
+    
+    // Other handlers...
+    document.getElementById('legalAidBtn').addEventListener('click', async () => {
+        const output = document.getElementById('legalAidOutput');
+        output.innerHTML = '<em>Fetching relevant laws and suggestions...</em>';
+        const payload = { document_text: currentDocumentText || "", q: "", language: langSelector.value, jurisdiction: "Chennai" };
+        const response = await fetchAPI('/laws_search', payload, 'POST');
+        if (response) {
+            output.innerHTML = response.results_html;
         }
     });
+
+    // --- Voice Recognition (Fixed & Simplified) ---
+    const speakBtn = document.getElementById('speakBtn');
+    const qaInput = document.getElementById('qaInput');
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    if (SpeechRecognition) {
+        const recognition = new SpeechRecognition();
+        recognition.continuous = false; // Process speech after a pause
+
+        speakBtn.addEventListener('click', () => {
+            // Use the language currently selected in the dropdown
+            const langCode = langSelector.value || 'en-IN';
+            const langMap = { 'en': 'en-IN', 'es': 'es-ES', 'hi': 'hi-IN', 'fr': 'fr-FR', 'ta': 'ta-IN', 'te': 'te-IN', 'ml': 'ml-IN', 'kn': 'kn-IN' };
+            recognition.lang = langMap[langCode] || 'en-IN';
+            try {
+                recognition.start();
+            } catch(e) {
+                alert("Voice recognition error: Could not start. It might already be running.");
+            }
+        });
+
+        recognition.onstart = () => {
+            speakBtn.textContent = '...';
+            speakBtn.disabled = true;
+        };
+
+        recognition.onresult = (event) => {
+            const transcript = event.results[0][0].transcript;
+            qaInput.value = transcript;
+            // Automatically click the "ask" button to send the transcribed question
+            document.getElementById('askBtn').click();
+        };
+
+        recognition.onend = () => {
+            speakBtn.textContent = '🎙️';
+            speakBtn.disabled = false;
+        };
+
+        recognition.onerror = (event) => {
+            console.error('Speech Recognition Error:', event.error);
+            alert(`Speech recognition error: ${event.error}. Your browser might require microphone permissions.`);
+            speakBtn.textContent = '🎙️';
+            speakBtn.disabled = false;
+        };
+    } else {
+        speakBtn.style.display = 'none'; // Hide button if not supported
+        console.warn("Speech Recognition not supported in this browser.");
+    }
 });
 """
 
